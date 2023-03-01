@@ -3,8 +3,10 @@
 # Project Description
 
 # Project Deliverables
+
 - [ ] Project Report Presentation
-- [ ] Data Pipeline
+- [ ] Data Visualization/Dashboard
+- [ ] Project Documentation
 
 # Usage Instruction
 

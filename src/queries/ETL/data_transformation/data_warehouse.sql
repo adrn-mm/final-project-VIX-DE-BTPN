@@ -4,7 +4,7 @@ USE CustomerHistoryData;
 CREATE TABLE dbo.DataWarehouse(
     CLIENTNUM int,
     idstatus varchar(255),
-    Customer_Age int,
+    Customer_Age varchar(255),
     Gender varchar(255),
     Dependent_count int,
     Educationid varchar(255),

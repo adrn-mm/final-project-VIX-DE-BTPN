@@ -28,7 +28,18 @@ SELECT CLIENTNUM,
         WHEN Idstatus = 2 THEN 'Attrited Customer'
         ELSE ''
     END AS Idstatus,
-    Customer_Age,
+    CASE
+        WHEN Customer_Age < 30 THEN '20s'
+        WHEN Customer_Age >= 30
+        AND Customer_Age < 40 THEN '30s'
+        WHEN Customer_Age >= 40
+        AND Customer_Age < 50 THEN '40s'
+        WHEN Customer_Age >= 50
+        AND Customer_Age < 60 THEN '50s'
+        WHEN Customer_Age >= 60
+        AND Customer_Age < 70 THEN '60s'
+        ELSE '70s+'
+    END AS Customer_Age,
     Gender,
     Dependent_count,
     CASE
@@ -46,7 +57,7 @@ SELECT CLIENTNUM,
         WHEN Maritalid = 2 THEN 'Single'
         WHEN Maritalid = 3 THEN 'Unknown'
         WHEN Maritalid = 0 THEN 'Divorced'
-        ELSE ''
+        ELSE 'Unknown'
     END AS Maritalid,
     Income_Category,
     CASE
@@ -54,7 +65,7 @@ SELECT CLIENTNUM,
         WHEN Card_Category = 2 THEN 'Gold'
         WHEN Card_Category = 3 THEN 'Silver'
         WHEN Card_Category = 4 THEN 'Platinum'
-        ELSE ''
+        ELSE 'Unknown'
     END AS Card_Category,
     Months_on_book,
     Total_Relationship_Count,

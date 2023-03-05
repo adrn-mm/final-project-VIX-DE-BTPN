@@ -1,0 +1,9 @@
+Status,DependentCount,Total
+Existing Customer,Few Dependents,3807
+Existing Customer,No Dependents,769
+Attrited Customer,Many Dependents,64
+Attrited Customer,No Dependents,135
+Attrited Customer,Moderate Dependents,742
+Attrited Customer,Few Dependents,686
+Existing Customer,Moderate Dependents,3564
+Existing Customer,Many Dependents,360

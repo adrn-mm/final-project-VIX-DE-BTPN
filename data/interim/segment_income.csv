@@ -1,0 +1,13 @@
+Status,IncomeCategory,Total
+Attrited Customer,$80K - $120K,242
+Existing Customer,$80K - $120K,1293
+Attrited Customer,Less than $40K,612    
+Attrited Customer,$40K - $60K,271
+Existing Customer,$40K - $60K,1519
+Attrited Customer,$60K - $80K,189
+Attrited Customer,$120K +,126
+Existing Customer,Less than $40K,2949
+Existing Customer,$120K +,601
+Attrited Customer,Unknown,187
+Existing Customer,$60K - $80K,1213
+Existing Customer,Unknown,925

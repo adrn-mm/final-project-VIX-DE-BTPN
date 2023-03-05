@@ -1,0 +1,15 @@
+Status,Education,Total
+Attrited Customer,Post-Graduate,92
+Existing Customer,College,859
+Attrited Customer,College,154
+Existing Customer,Doctorate,356
+Attrited Customer,Doctorate,95
+Existing Customer,Post-Graduate,424
+Existing Customer,Graduate,2641
+Attrited Customer,Graduate,487
+Existing Customer,Uneducated,1250
+Attrited Customer,Uneducated,237
+Attrited Customer,High School,306
+Existing Customer,High School,1707
+Attrited Customer,Unknown,256
+Existing Customer,Unknown,1263

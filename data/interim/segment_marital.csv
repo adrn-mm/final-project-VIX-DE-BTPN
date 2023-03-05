@@ -1,0 +1,9 @@
+Status,MaritalStatus,Total
+Existing Customer,Divorced,627
+Attrited Customer,Divorced,121
+Attrited Customer,Single,668
+Existing Customer,Single,3275
+Existing Customer,Married,3978
+Attrited Customer,Married,709
+Attrited Customer,Unknown,129
+Existing Customer,Unknown,620

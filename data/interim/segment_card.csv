@@ -1,0 +1,9 @@
+Status,CardCategory,Total
+Existing Customer,Blue,7917
+Existing Customer,Platinum,15
+Attrited Customer,Platinum,5
+Attrited Customer,Blue,1519
+Existing Customer,Gold,95
+Attrited Customer,Silver,82
+Existing Customer,Silver,473
+Attrited Customer,Gold,21
